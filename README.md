@@ -15,4 +15,5 @@
   6. **บ้าน/กระท่อม** – ใช้ `rect` (ตัวบ้าน) + `triangle path` (หลังคา)  
   7. **แม่น้ำ** – ใช้ `bezierCurveTo` ให้เส้นโค้ง และ `fill` ด้วยสีน้ำเงิน  
 
+วีดีโอ https://youtu.be/CB-Mti2j-Ko?si=WWBh5Aq3brR3i2jh
 
