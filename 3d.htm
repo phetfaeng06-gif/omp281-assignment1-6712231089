@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <!-- กำหนด encoding เป็น UTF-8 เพื่อรองรับภาษาไทย -->
+  <title>ชัยพฤกษ์ แฝงสูงเนิน 6712231089 </title>
+  
+  <style>
+    /* จัดรูปแบบหน้าจอให้ canvas อยู่กึ่งกลางทั้งแนวตั้งและแนวนอน */
+    body {
+      display: flex;                /* ใช้ flexbox */
+      justify-content: center;      /* จัดกึ่งกลางแนวนอน */
+      align-items: center;          /* จัดกึ่งกลางแนวตั้ง */
+      height: 100vh;                /* ให้สูงเต็มหน้าจอ */
+      margin: 0;                    /* ตัด margin เริ่มต้นของ browser */
+      background: #ccc;             /* สีพื้นหลังเทาอ่อน */
+    }
+
+    /* กำหนดสไตล์ของ canvas */
+    canvas {
+      border: 2px solid #333;       /* เส้นขอบสีดำ */
+      border-radius: 8px;           /* มุมโค้ง */
+      background: white;            /* พื้นหลังสีขาว */
+    }
+  </style>
+</head>
+<body>
+  <!-- สร้าง canvas ที่จะใช้สำหรับวาดภาพ -->
+  <canvas id="scene" width="700" height="400"></canvas>
+
+  <!-- เรียกใช้งานไฟล์ JavaScript ที่ชื่อ 2d.js -->
+  <script src="2d2.js"></script>
+</body>
+</html>
